@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
+/* contenedor de fondo principal */
+.container-fondo {
+  background-image: url("../img/banner-home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* contenedor de navbar */
+.contenedor-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Logo de navbar */
+.logo {
+  margin-top: 12px;
+  margin-left: 43px;
+}
+/* nav */
+.menu {
+  width: 86%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-right: 60px;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Catamaran", sans-serif;
+}
+a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* seccion de titulo principal */
+.titulo-principal {
+  height: 100vh;
+  padding-top: 100px;
+}
+.titulo {
+  flex-direction: column;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+}
+.subt-fuente {
+  font-size: 50px;
+}
+
+/* seccion resumen */
+
+.container-texto {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f6f5f5;
+}
+
+.texto-resumen {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  padding-top: 200px;
+}
+
+p {
+  font-family: "Catamaran", sans-serif;
+  color: #ffffff;
+}
+
+/* pie de página */
+.footer-container {
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 12px;
+}
+
+.footer-texto {
+  text-align: center;
+  font-size: 12px;
+  color: #000000;
+}
+
+/* seccion Empresa */
+
+.fondo-empresa {
+  background-image: url("../img/home-students.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/* seccion titulo */
+.titulo-empresa {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 60px;
+}
+/* seccion resumen */
+.resumen-contenedor {
+  background-color: #f6f5f5;
+  padding-top: 100px;
+  height: 100vh;
+}
+.resumen {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  color: #424242;
+  font-size: 25px;
+}
+/* seccion novedades */
+
+.fondo-novedades {
+  background-image: url("../img/home-whoweare2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.contenedor-novedades {
+  display: flex;
+  margin: 70px;
+}
+
+.novedades {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* fecha de la última novedad */
+.fecha {
+  display: flex;
+  justify-content: center;
+  width: 254px;
+  height: 179px;
+  background-color: #ffffff;
+  position: relative;
+  margin-left: 100px;
+}
+.mes {
+  background-color: #f2f2f2;
+  padding: 0 85px;
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 15px;
+  font-size: 1.4rem;
+  color: #146e83;
+}
+
+.anio {
+  display: flex;
+  background-color: #146e83;
+  position: absolute;
+  top: 0;
+  width: 110px;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+/* contenedor de la novedad */
+
+.imagen-novedades {
+  width: 44%;
+  border-radius: 6px;
+}
+
+.titulo-novedad {
+  text-align: center;
+  color: #146e83;
+  width: 44%;
+  font-size: 18px;
+}
+
+.resumen-novedad {
+  text-align: center;
+  color: #424242;
+  width: 44%;
+}
+
+/* seccion contacto */
+
+.section-contacto {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.contenedor-contacto {
+  background-image: url(../img/home-graduates.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* formulario */
+
+.contenedor-formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 25px 15px 25px;
+  background: #f2f2f2b3;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  width: 40%;
+  margin-top: 40px;
+}
+
+/* titulos */
+
+.contenedor-titulo {
+  text-align: center;
+}
+
+.titulo-form {
+  color: #424242;
+  text-transform: uppercase;
+  margin: 60px 10px 10px -3px;
+}
+
+.subtitulo-form {
+  color: #424242;
+  line-height: 34px;
+  margin-bottom: 30px;
+}
+
+/* contenedor de los input */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+  margin: 30px;
+}
+
+/* input */
+
+input {
+  height: 34px;
+  padding: 1px 12px;
+  font-size: 17px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+/* botón de Ingresar */
+
+.button {
+  padding: 10px 10px;
+  font-size: 17px;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+button:hover {
+  background-color: #146e83;
+  color: #ffffff;
+}
+
+.texto-contraseña {
+  text-align: center;
+  color: #146e83;
+}
